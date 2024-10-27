@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    text {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 60px;
+      fill: #000000;
+    }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #000000; }
+    }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle">OH</text>
+</svg>
