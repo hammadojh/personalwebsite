@@ -70,7 +70,7 @@ const Blog: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className={`bg-white bg-opacity-70 backdrop-filter backdrop-blur-lg p-8 rounded-lg ${isInputActive ? 'border-black' : 'border'} mb-8 transition-colors duration-300`}>
+      {/* <div className={`bg-white bg-opacity-70 backdrop-filter backdrop-blur-lg p-8 rounded-lg ${isInputActive ? 'border-black' : 'border'} mb-8 transition-colors duration-300`}>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4">
           <input
             type="email"
@@ -89,7 +89,7 @@ const Blog: React.FC = () => {
             Subscribe
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
