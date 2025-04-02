@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Research from './pages/Research';
 import Blog from './pages/Blog';
+import ProjectDetails from './pages/ProjectDetails';
+import Projects from './pages/Projects';
 import './App.css';
 
 const App: React.FC = () => {
@@ -45,6 +47,8 @@ const App: React.FC = () => {
                         <Route path="/research" element={<Research />} />
                         <Route path="/blog" element={<Blog />} />
                         <Route path="/contact" element={<Contact />} />
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/projects/:id" element={<ProjectDetails />} />
                         {/* Add other routes as needed */}
                     </Routes>
                 </Layout>

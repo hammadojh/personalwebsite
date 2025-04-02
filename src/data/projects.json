@@ -1,0 +1,327 @@
+{
+    "purenav": {
+        "title": "PureNav",
+        "description": "A Personalized Navigation Service for Environmental Justice Communities Impacted by Planned Disruptions",
+        "fullDescription": "PureNav is an innovative navigation service designed specifically for environmental justice communities affected by planned disruptions. The system takes into account various factors such as air quality, construction zones, and community feedback to provide optimal routing solutions.",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3625007.3627512",
+        "category": "research",
+        "technologies": [
+            "React Native",
+            "Node.js", 
+            "MongoDB"
+        ],
+        "keyFeatures": [
+            "Real-time air quality monitoring",
+            "Community-driven route suggestions",
+            "Integration with local environmental data",
+            "Personalized navigation preferences"
+        ],
+        "impact": "Currently serving multiple environmental justice communities, helping residents navigate through areas affected by construction and environmental hazards."
+    },
+    "pureconnect": {
+        "title": "PureConnect",
+        "description": "A Localized Social Media System to Increase Awareness and Connectedness in Environmental Justice Communities",
+        "fullDescription": "PureConnect is a specialized social media platform that helps environmental justice communities stay connected and informed about local environmental issues, community events, and important updates.",
+        "link": "https://dl.acm.org/doi/abs/10.1145/3675669.3675702",
+        "category": "research",
+        "technologies": [
+            "React",
+            "Firebase",
+            "Node.js"
+        ],
+        "keyFeatures": [
+            "Local event notifications",
+            "Community discussion forums",
+            "Environmental alert system",
+            "Resource sharing platform"
+        ],
+        "impact": "Successfully implemented in several communities, fostering increased awareness and participation in environmental justice initiatives."
+    },
+    "cultural-reviews": {
+        "title": "Online Reviews Cultural Differences",
+        "description": "Understanding the Impact of Culture in Assessing Helpfulness of Online Reviews",
+        "fullDescription": "This research project explores how cultural differences influence the perception and helpfulness of online reviews across different communities and platforms.",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10068664",
+        "category": "research",
+        "technologies": [
+            "Python",
+            "R",
+            "Natural Language Processing"
+        ],
+        "keyFeatures": [
+            "Cross-cultural analysis framework",
+            "Review helpfulness metrics",
+            "Cultural context indicators",
+            "Automated sentiment analysis"
+        ],
+        "impact": "Findings have influenced the design of several major e-commerce platforms' review systems."
+    },
+    "app-personalization": {
+        "title": "Personalization of Consumer Facing Apps",
+        "description": "Developing machine learning solutions to personalize user experiences in fintech applications",
+        "fullDescription": "This research project focuses on implementing advanced machine learning techniques to create personalized user experiences in consumer-facing applications. Working with Drahim Fintech App, we're analyzing user behavior patterns to deliver customized interfaces and features.",
+        "link": "",
+        "category": "ongoing-research",
+        "status": "Data Collection",
+        "technologies": [
+            "Machine Learning",
+            "Data Analytics",
+            "Python",
+            "Fintech APIs"
+        ],
+        "keyFeatures": [
+            "User behavior analysis",
+            "Personalized interface generation",
+            "Machine learning models for user preferences",
+            "Real-time adaptation systems"
+        ],
+        "team": [
+            "Dr. Yahya",
+            "Qurrat Ul Ain (MS+)"
+        ],
+        "collaborator": "Drahim Fintech App",
+        "impact": "Enhancing user experience through personalized interfaces in fintech applications"
+    },
+    "churn-prediction": {
+        "title": "Churn Prediction of Consumer Facing Apps",
+        "description": "Developing predictive models to identify and prevent user churn in mobile applications",
+        "fullDescription": "This project focuses on creating machine learning models to predict and prevent user churn in consumer-facing applications. Working with Sweater Cars app, we're analyzing user engagement patterns to identify early warning signs of churn.",
+        "category": "ongoing-research",
+        "status": "Evaluation",
+        "technologies": [
+            "Machine Learning",
+            "Predictive Analytics",
+            "Python",
+            "Data Mining"
+        ],
+        "keyFeatures": [
+            "Churn prediction models",
+            "User engagement analysis",
+            "Early warning systems",
+            "Retention strategy recommendations"
+        ],
+        "team": [
+            "Dr. Haitham",
+            "Mufti (MS)"
+        ],
+        "collaborator": "Sweater Cars app",
+        "impact": "Helping businesses retain users through predictive analytics and targeted interventions"
+    },
+    "review-personalization": {
+        "title": "Personalization of Product Reviews",
+        "description": "Supporting decision making in online shopping through personalized review systems",
+        "fullDescription": "This research focuses on developing machine learning solutions to personalize product reviews for individual shoppers, making online shopping decisions easier and more relevant to each user's preferences and needs.",
+        "category": "ongoing-research",
+        "status": "Data Collection",
+        "technologies": [
+            "Machine Learning",
+            "Natural Language Processing",
+            "Recommendation Systems"
+        ],
+        "keyFeatures": [
+            "Personalized review ranking",
+            "User preference modeling",
+            "Review relevance scoring",
+            "Decision support system"
+        ],
+        "team": [
+            "Dr. Mahfoud",
+            "Mufti (MS)"
+        ],
+        "collaborator": "Zid",
+        "impact": "Improving online shopping experience through personalized review recommendations"
+    },
+    "real-estate-preferences": {
+        "title": "Predicting User Preferences in Real Estate",
+        "description": "Machine learning approach to understand and predict user preferences in real estate applications",
+        "fullDescription": "This project aims to develop predictive models that understand and anticipate user preferences in real estate applications, making property searching and matching more efficient and personalized.",
+        "category": "ongoing-research",
+        "status": "Data Collection",
+        "technologies": [
+            "Machine Learning",
+            "Predictive Analytics",
+            "Real Estate APIs"
+        ],
+        "keyFeatures": [
+            "Preference prediction models",
+            "Property matching algorithms",
+            "User behavior analysis",
+            "Personalized recommendations"
+        ],
+        "team": [
+            "Dr. Hamza",
+            "Arefin (MS)"
+        ],
+        "collaborator": "Deel Real Estate App",
+        "impact": "Enhancing property search experience through personalized recommendations"
+    },
+    "arabic-ui-dataset": {
+        "title": "Arabic Mobile Apps UI Dataset using LLMs",
+        "description": "Creating a comprehensive dataset of Arabic mobile app interfaces using hybrid annotation methods",
+        "fullDescription": "This project combines human annotations with machine learning to create a comprehensive dataset of Arabic mobile app interfaces, supporting research in Arabic UI/UX design and evaluation.",
+        "category": "ongoing-research",
+        "status": "Data Collection",
+        "technologies": [
+            "Large Language Models",
+            "Human-in-the-loop annotation",
+            "Machine Learning"
+        ],
+        "keyFeatures": [
+            "Hybrid annotation system",
+            "Arabic UI pattern recognition",
+            "LLM-based analysis",
+            "Comprehensive UI dataset"
+        ],
+        "team": [
+            "Dr. Adel Ahmad",
+            "Athar (MS)"
+        ],
+        "impact": "Creating valuable resources for Arabic mobile app design and research"
+    },
+    "player-personality": {
+        "title": "Predicting Player Personality in Serious Games",
+        "description": "Using machine learning to predict player personality traits through serious game interactions",
+        "fullDescription": "This research project focuses on developing machine learning models to predict player personality traits based on their interactions within serious games, providing insights for personalized gaming experiences.",
+        "category": "ongoing-research",
+        "status": "Submission",
+        "technologies": [
+            "Machine Learning",
+            "Game Analytics",
+            "Personality Assessment"
+        ],
+        "keyFeatures": [
+            "Personality prediction models",
+            "Game interaction analysis",
+            "Behavioral pattern recognition",
+            "Personalization framework"
+        ],
+        "team": [
+            "Dr. Yahia",
+            "Dr. Sajjad",
+            "Dalai (MS)"
+        ],
+        "impact": "Advancing personalized gaming experiences through personality-based adaptations"
+    },
+    "game-usability": {
+        "title": "Enhancing Serious Games Usability Personalization",
+        "description": "Improving serious game usability through personalized A/B testing approaches",
+        "fullDescription": "This project uses A/B testing methodologies to enhance the usability and personalization of serious games, focusing on creating more effective and engaging learning experiences.",
+        "category": "ongoing-research",
+        "status": "Conduct Experiment",
+        "technologies": [
+            "A/B Testing",
+            "Analytics",
+            "Game Design"
+        ],
+        "keyFeatures": [
+            "Personalized game mechanics",
+            "Usability testing framework",
+            "Learning effectiveness metrics",
+            "Adaptive difficulty systems"
+        ],
+        "team": [
+            "Dr. Yahia",
+            "Dr. Sajjad",
+            "Dalai (MS)"
+        ],
+        "impact": "Improving learning outcomes through personalized game experiences"
+    },
+    "arabic-apps-framework": {
+        "title": "Arabic Mobile Apps Usability Framework",
+        "description": "Developing an automated framework for evaluating Arabic mobile application usability",
+        "fullDescription": "This qualitative research project aims to create a comprehensive framework for automatically evaluating the usability of Arabic mobile applications, considering cultural and linguistic factors.",
+        "category": "ongoing-research",
+        "status": "Literature",
+        "technologies": [
+            "Qualitative Analysis",
+            "Usability Testing",
+            "Arabic UI/UX"
+        ],
+        "keyFeatures": [
+            "Automated evaluation system",
+            "Arabic-specific usability metrics",
+            "Cultural consideration framework",
+            "Linguistic analysis tools"
+        ],
+        "team": [
+            "Dr. Jamaleddin",
+            "Athar (MS)"
+        ],
+        "impact": "Improving the quality and usability of Arabic mobile applications"
+    },
+    "ai-education": {
+        "title": "Investigating the Effect of AI on Education",
+        "description": "Qualitative study on the impact of AI technologies in educational settings",
+        "fullDescription": "This research uses qualitative surveys to understand how AI technologies are affecting educational processes, outcomes, and experiences for both students and educators.",
+        "category": "ongoing-research",
+        "status": "Data Analysis",
+        "technologies": [
+            "Qualitative Research",
+            "Survey Analysis",
+            "Educational Technology"
+        ],
+        "keyFeatures": [
+            "Impact assessment framework",
+            "Stakeholder surveys",
+            "Educational outcome analysis",
+            "AI integration patterns"
+        ],
+        "team": ["External Collaborators"],
+        "impact": "Providing insights for effective AI integration in education"
+    },
+    "social-media-privacy": {
+        "title": "Social Media Privacy",
+        "description": "Research on privacy concerns and solutions in social media platforms",
+        "fullDescription": "This course project investigates privacy issues in social media platforms and develops potential solutions to enhance user privacy while maintaining social connectivity.",
+        "category": "course",
+        "status": "Submitted",
+        "technologies": [
+            "Privacy Analysis",
+            "Social Media APIs",
+            "Security Frameworks"
+        ],
+        "keyFeatures": [
+            "Privacy assessment tools",
+            "User control mechanisms",
+            "Data protection strategies",
+            "Privacy awareness features"
+        ],
+        "impact": "Enhancing user privacy awareness and control in social media"
+    },
+    "accessible-ai": {
+        "title": "Make AI Accessible",
+        "description": "Project focused on making AI technologies more accessible to diverse user groups",
+        "fullDescription": "This course project aims to develop solutions that make AI technologies more accessible and usable for people with different abilities and technical backgrounds.",
+        "category": "course",
+        "technologies": [
+            "Accessibility Design",
+            "AI Integration",
+            "Universal Design"
+        ],
+        "keyFeatures": [
+            "Accessible AI interfaces",
+            "Universal design principles",
+            "User assistance features",
+            "Simplified AI interactions"
+        ],
+        "impact": "Making AI technologies more inclusive and accessible to all users"
+    },
+    "robotics-trust": {
+        "title": "Trust in Robotics",
+        "description": "Investigating factors that influence user trust in robotic systems",
+        "fullDescription": "This course project examines the factors that build or diminish user trust in robotic systems and develops guidelines for creating more trustworthy human-robot interactions.",
+        "category": "course",
+        "technologies": [
+            "Human-Robot Interaction",
+            "Trust Metrics",
+            "Behavioral Analysis"
+        ],
+        "keyFeatures": [
+            "Trust assessment framework",
+            "Interaction design guidelines",
+            "User perception analysis",
+            "Trust-building mechanisms"
+        ],
+        "impact": "Improving human-robot interaction through enhanced trust mechanisms"
+    }
+} 
