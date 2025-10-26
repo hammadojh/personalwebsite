@@ -17,19 +17,19 @@ const Projects: React.FC = () => {
         'course': 'Course Projects'
     };
 
-    const filteredProjects = selectedCategory 
+    const filteredProjects = selectedCategory
         ? projects.filter(project => project.category === selectedCategory)
         : projects;
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold mb-8">All Projects</h1>
+            <h1 className="text-4xl font-bold mb-8">Research</h1>
 
             <div className="flex gap-2 mb-12">
-                <button 
+                <button
                     className={`px-4 py-2 rounded-full text-sm font-medium transition-colors
-                        ${selectedCategory === null 
-                            ? 'bg-black text-white' 
+                        ${selectedCategory === null
+                            ? 'bg-black text-white'
                             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
                     onClick={() => setSelectedCategory(null)}
                 >
@@ -39,8 +39,8 @@ const Projects: React.FC = () => {
                     <button
                         key={category}
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-colors
-                            ${selectedCategory === category 
-                                ? 'bg-black text-white' 
+                            ${selectedCategory === category
+                                ? 'bg-black text-white'
                                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
                         onClick={() => setSelectedCategory(category)}
                     >

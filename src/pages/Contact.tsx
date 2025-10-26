@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6">Contact</h1>
-      <p className="mb-4">I'm always open to collaboration and new opportunities. Feel free to reach out if you'd like to discuss research, projects, or just have a chat about HCI and digital product design.</p>
+      <p className="mb-4">Open to collaboration. Let's discuss research, projects, or HCI.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {contactLinks.map((link, index) => (
           <a key={index} href={link.url} target="_blank" rel="noopener noreferrer" className="p-4 pb-1 border rounded-lg hover:bg-gray-100 transition-colors duration-200 cursor-pointer flex flex-col justify-between h-full relative" onClick={link.onClick}>
