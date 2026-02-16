@@ -129,7 +129,7 @@ const ProposalThiqal: React.FC = () => {
         }
       `}</style>
 
-      <div id="proposal-print-actions" className="sticky top-20 z-40 mb-4 flex justify-end">
+      <div id="proposal-print-actions" className="fixed bottom-4 right-4 z-40">
         <button
           onClick={handleExportPdf}
           className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-100"
