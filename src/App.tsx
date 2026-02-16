@@ -7,6 +7,7 @@ import Research from './pages/Research';
 import Blog from './pages/Blog';
 import ProjectDetails from './pages/ProjectDetails';
 import Projects from './pages/Projects';
+import ProposalThiqal from './pages/ProposalThiqal';
 import './App.css';
 
 const App: React.FC = () => {
@@ -46,6 +47,7 @@ const App: React.FC = () => {
                         <Route path="/" element={<Home />} />
                         <Route path="/research" element={<Research />} />
                         <Route path="/blog" element={<Blog />} />
+                        <Route path="/proposal-thiqal" element={<ProposalThiqal />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/projects/:id" element={<ProjectDetails />} />
