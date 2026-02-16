@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Research from './pages/Research';
-import Blog from './pages/Blog';
+import Consultation from './pages/Consultation';
 import ProjectDetails from './pages/ProjectDetails';
 import Projects from './pages/Projects';
 import ProposalThiqal from './pages/ProposalThiqal';
@@ -46,7 +46,8 @@ const App: React.FC = () => {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/research" element={<Research />} />
-                        <Route path="/blog" element={<Blog />} />
+                        <Route path="/consultation" element={<Consultation />} />
+                        <Route path="/blog" element={<Navigate to="/consultation" replace />} />
                         <Route path="/proposal-thiqal" element={<ProposalThiqal />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/projects" element={<Projects />} />

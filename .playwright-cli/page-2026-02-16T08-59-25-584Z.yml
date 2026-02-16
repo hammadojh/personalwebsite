@@ -1,0 +1,26 @@
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "OH" [ref=e8]:
+        - /url: /
+      - navigation [ref=e9]:
+        - link "Research" [ref=e10]:
+          - /url: /projects
+        - link "Consultation" [ref=e11]:
+          - /url: /consultation
+        - link "Get in touch" [ref=e12]:
+          - /url: /contact
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - heading [level=1]
+      - paragraph [ref=e16]: Exploring how to design less frustrating interfaces
+  - contentinfo [ref=e17]:
+    - generic [ref=e19]:
+      - paragraph [ref=e20]: © 2026 OH. All rights reserved.
+      - generic [ref=e21]:
+        - link "Twitter" [ref=e22]:
+          - /url: https://x.com/hammadojh
+        - link "LinkedIn" [ref=e23]:
+          - /url: https://www.linkedin.com/in/ohammad/
+        - link "GitHub" [ref=e24]:
+          - /url: https://github.com/hammadojh
