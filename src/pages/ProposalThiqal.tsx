@@ -285,7 +285,7 @@ const ProposalThiqal: React.FC = () => {
                 omar@ohammad.com
               </a>
             </p>
-            <p>Phone: available on request.</p>
+            <p>Phone: 0590825052</p>
           </div>
         </section>
       </div>
