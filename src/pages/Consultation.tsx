@@ -29,6 +29,16 @@ const Consultation: React.FC = () => {
     { name: 'Circlys', href: 'https://circlys.com' },
   ];
 
+  const qualifications = [
+    'Assistant Professor at KFUPM (Human-Computer Interaction).',
+    'Research affiliation with JRCAI.',
+    'PhD track in HCI (in progress).',
+    'Nielsen Norman Group (NN/g) UX Certification.',
+    'UX management training.',
+    'IDEO U Advanced Design Thinking.',
+    'NVIDIA certification in Generative AI and LLMs.',
+  ];
+
   return (
     <div className="container mx-auto px-4 py-8">
       <section className="mb-12">
@@ -68,6 +78,15 @@ const Consultation: React.FC = () => {
             </div>
           ))}
         </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">Qualifications</h2>
+        <ul className="list-disc pl-5 space-y-1 text-gray-700">
+          {qualifications.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </section>
     </div>
   );
